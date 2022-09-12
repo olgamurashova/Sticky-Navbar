@@ -33,8 +33,32 @@ body {
     background-color: white;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .navbar ul {
-    
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 2px;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+}
+
+.navbar.active {
+    background-color: rgb(244, 142, 159)
+    ;
+}
+
+.navbar.active ul li a {
+    color: rgb(60, 13, 21);
 }
