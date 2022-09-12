@@ -20,3 +20,21 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
 }
+
+.text {
+    margin: 50px 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    
+}
